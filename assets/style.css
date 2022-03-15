@@ -1,0 +1,27 @@
+.dark {
+    background: #000;
+    color: #fff;
+}
+
+.nav-mobile {
+    display: none;
+}
+
+.nav-desktop {
+    display: block;
+    background-color: red;
+}
+
+.close {
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    .nav-mobile {
+        display: block;
+        background-color: blue;
+    }
+    .nav-desktop {
+        display: none;
+    }  
+}
